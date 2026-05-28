@@ -26,3 +26,15 @@ Enter text (use ':q' to finish)
 :q
 0100100001100101011011000110110001101111001000000111011101101111011100100110110001100100
 ```
+
+# Build
+Run this command in the project's directory:
+```
+make && ./binary-converter
+
+# or directly with
+make run
+
+# or build with g++
+g++ binary_converter.cpp -o binary-converter && ./binary-converter
+```
